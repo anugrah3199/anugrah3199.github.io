@@ -21,7 +21,7 @@ pswdInput.addEventListener("change", () => {
 
 function validate() {
     if (pswdInput.value.match("SmartServTest@123") && userInput.value) {
-        location.href = ""
+        location.href = "https://anugrah3199.github.io/task4/"
     } else {
         alert("wrong password or invalid username");
     }
