@@ -1,0 +1,34 @@
+:root {
+    --background: #E6E6E7;
+    --primary: #05AA6C;
+}
+
+body {
+    background-color: #E6E6E7;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    border-left: solid var(--primary) 0.5rem;
+}
+
+.charts {
+    display: flex;
+    flex-direction: row;
+}
+
+.chart {
+    width: 100%;
+}
+
+.canva {
+    width: 100%;
+    padding: 1rem;
+}
